@@ -1,1 +1,4 @@
 Ozay tunctan
+Git Bash localden remote repoya veri gönderildi.
+version deðiþti .
+tekrar push edildi.
