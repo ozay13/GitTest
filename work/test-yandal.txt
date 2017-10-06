@@ -1,0 +1,16 @@
+verison 4 yandal ekledi.
+public class Produce extends Thread {
+   private Counter say;
+  private int adet;
+public Produce(Counter c,int uretimMiktari){
+this.adet=uretimMiktari;
+this.say=c;
+}
+public void run(){
+for (int i=0;i<adet;i++){
+   say.produce(i);
+Thread.sleep(500);
+}
+}
+
+}
